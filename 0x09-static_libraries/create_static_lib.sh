@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc main.c -L. -lall -o main
+ar -rc liball.a *.o
